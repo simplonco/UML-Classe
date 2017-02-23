@@ -10,24 +10,30 @@ Certains plugins permettent même de générer son code directement à partir d�
 ##Le diagramme 
 + La définition d’une classe :
 On définit une classe par ses **propriétés** et ses **méthodes**.
-
 <img src="class-detail.png" width="150"/>
 
 + Les différents types d’associations entre deux classes :
-    + L’association simple. un Animal utilise/crée un Outil. L’outil a besoin de l’animal pour être créer. L’animal a besoin d’utiliser l’outil. il y a une relation de co-dépendance. <img src="asso-simple.png" width="300"/>
+    + L’association simple. un Animal utilise/crée un Outil. L’outil a besoin de l’animal pour être créer. L’animal a besoin d’utiliser l’outil. il y a une relation de co-dépendance.
+    <img src="asso-simple.png" width="300"/>
 
-+ L’association directe. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal. <img src="asso-direct.png" width="300"/>
++ L’association directe. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal.
+    <img src="asso-direct.png" width="300"/>
 
-    + L’association temporaire. un Animal mange de la nourriture. L’animal utilise ponctuellement la nourriture. L’animal ne vit pas sans nourriture, la nourriture vit sans l’animal. <img src="asso-temp.png" width="300"/>
+    + L’association temporaire. un Animal mange de la nourriture. L’animal utilise ponctuellement la nourriture. L’animal ne vit pas sans nourriture, la nourriture vit sans l’animal.
+    <img src="asso-temp.png" width="300"/>
 
-    + L’héritage. L’Homme est un Animal. Tout les animaux ne sont pas des hommes. Tout les hommes ont les mêmes propriétés et méthodes que les animaux (squelette, respiration(),… ). Tout les animaux n’ont pas les mêmes propriétés que l’homme (pouceOppose, marcherDebout()). <img src="asso-heritage.png" width="300"/>
+    + L’héritage. L’Homme est un Animal. Tout les animaux ne sont pas des hommes. Tout les hommes ont les mêmes propriétés et méthodes que les animaux (squelette, respiration(),… ). Tout les animaux n’ont pas les mêmes propriétés que l’homme (pouceOppose, marcherDebout()).
+    <img src="asso-heritage.png" width="300"/>
 
-    + L’association composition. un Animal a un Coeur. L’un fait partie de l’autre et l’un ne vit pas sans l’autre. <img src="asso-composition.png" width="300"/>
+    + L’association composition. un Animal a un Coeur. L’un fait partie de l’autre et l’un ne vit pas sans l’autre.
+    <img src="asso-composition.png" width="300"/>
 
     + L’association agrégation. un Animal a un Territoire. Les deux sont indépendants l’un de l’autre. L’animal peut survivre hors de son territoire et inversement.
-Le Territoire a des propriétés et des méthodes qui ne sont pas liés à l’animal et inversement. <img src="asso-agregation.png" width=300/>
+    Le Territoire a des propriétés et des méthodes qui ne sont pas liés à l’animal et inversement.
+    <img src="asso-agregation.png" width=300/>
 
-+ Pour chaque type d’association on peut définir une quantité de l’un vers l’autre. <img src="asso-qtt.png" width="300"/>
++ Pour chaque type d’association on peut définir une quantité de l’un vers l’autre.
+<img src="asso-qtt.png" width="300"/>
 
 
 ## Case study Fixeez
