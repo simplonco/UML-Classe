@@ -1,4 +1,4 @@
-# Le diagramme de classe
+# Diagramme de Classe
 
 Ce chapitre s'inscrit dans le module diagramme [Diagramme UML](https://github.com/simplonco/Diagrammes-UML).
 
