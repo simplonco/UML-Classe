@@ -6,6 +6,7 @@ On va analyser notre service au-délà de ses utilisateurs et se pencher sur tou
 
 Bien fait il nous permettra de définir les différentes classes qu’on utilisera dans notre code.
 Certains plugins permettent même de générer son code directement à partir d’un diagramme de classe.
+
 --------------
 ## Les éléments de construction du diagramme.
 + La **définition** d’une classe :
@@ -46,7 +47,7 @@ On définit une classe par ses **propriétés** et ses **méthodes**.
 ## Case study Fixeez
 Quand on crée un service, on ne va pas forcément créer toutes les features directement. Mais quand on crée les classes ça peut être un gain de temps de penser au résultat final, ça permet d’avoir une solution **scalable** ( évolutive ).
 
-### La première version de mon service.
+#### La première version de mon service.
 C’est une version simplifiée qui se concentre sur un produit et s’appuie sur quelques réparateurs et sera gérée par un administrateur :
 
 + L’_administrateur_ crée son _compte_.
@@ -55,7 +56,7 @@ C’est une version simplifiée qui se concentre sur un produit et s’appuie su
 + Il déclare une _panne_.
 + L’_administrateur_ envoie un _réparateur_.
 
-### La deuxième version de mon service.
+#### La deuxième version de mon service.
 C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux gens de s’inscrire en tant que réparateurs et sera gérée par plusieurs administrateurs :
 
 + Les _comptes_ utilisent des _Tokens_.
@@ -66,7 +67,7 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 + Le _réparateur_ accepte la _requête_.
 + Les _administrateurs_ supervisent les _requêtes_ et _comptes_.
 
-### J’ai donc plusieurs classes :
+#### J’ai donc plusieurs classes :
 
 + Compte (User)
 + Admin
@@ -76,11 +77,12 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 + Type (Bike)
 + Request
 
-### Il me reste à définir les intéractions entre chaque classe.
+#### Il me reste à définir les intéractions entre chaque classe.
 
 + Fixee, Fixer et Admin _héritent_ de Compte.
 + Bike _hérite_ de Prop.
 + Fixee, Fixer et Admin _utilise temporairement_ Request()
+
 --------------
 ##Le diagramme
 
