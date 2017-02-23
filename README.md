@@ -71,7 +71,7 @@ explain.method();
 	```
 
     + **L’association directe**. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal.
-    
+
     <img src="asso-direct.png" width="300"/>
 
     + **L’association temporaire**. un Animal mange de la nourriture. L’animal utilise ponctuellement la nourriture. L’animal ne vit pas sans nourriture, la nourriture vit sans l’animal.
@@ -130,6 +130,7 @@ explain.method();
 
         console.log(human.heart.rate);
 	```
+
     + **L’association d'agrégation**. un Animal a un Territoire. Les deux sont indépendants l’un de l’autre. L’animal peut survivre hors de son territoire et inversement. Le Territoire a des propriétés et des méthodes qui ne sont pas liés à l’animal et inversement.
     
     <img src="asso-agregation.png" width=300/>
