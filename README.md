@@ -7,7 +7,7 @@ On va analyser notre service au-délà de ses utilisateurs et se pencher sur tou
 Bien fait il nous permettra de définir les différentes classes qu’on utilisera dans notre code.
 Certains plugins permettent même de générer son code directement à partir d’un diagramme de classe.
 
-##Le diagramme 
+##Les éléments de construction du diagramme.
 + La définition d’une classe :
 On définit une classe par ses **propriétés** et ses **méthodes**.
 
@@ -18,7 +18,7 @@ On définit une classe par ses **propriétés** et ses **méthodes**.
     
     <img src="asso-simple.png" width="300"/>
 
-+ L’association directe. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal.
+    + L’association directe. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal.
     
     <img src="asso-direct.png" width="300"/>
 
@@ -47,7 +47,7 @@ On définit une classe par ses **propriétés** et ses **méthodes**.
 ## Case study Fixeez
 Quand on crée un service, on ne va pas forcément créer toutes les features directement. Mais quand on crée les classes ça peut être un gain de temps de penser au résultat final, ça permet d’avoir une solution **scalable** ( évolutive ).
 
-####La première version de mon service.
+###La première version de mon service.
 C’est une version simplifiée qui se concentre sur un produit et s’appuie sur quelques réparateurs et sera gérée par un administrateur :
 
 + L’administrateur crée son compte.
@@ -56,7 +56,7 @@ C’est une version simplifiée qui se concentre sur un produit et s’appuie su
 + Quand il tombe en panne il crée une requête.
 + L’administrateur envoie un réparateur.
 
-####La deuxième version de mon service.
+###La deuxième version de mon service.
 C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux gens de s’inscrire en tant que réparateurs et sera gérée par plusieurs administrateurs :
 
 + Les comptes
@@ -77,8 +77,12 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 + Type (Bike)
 + Request
 
-Il me reste à définir les interactions entre chaque classe.
+Il me reste à définir les intéractions entre chaque classe.
 
 + Fixee, Fixer et Admin héritent de Compte.
 + Bike hérite de Prop.
 + Fixee, Fixer et Admin utilise temporairement Request()
+
+##Le diagramme
+
+<img src="asso-qtt.png" width="300"/>
