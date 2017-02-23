@@ -50,22 +50,22 @@ Quand on crée un service, on ne va pas forcément créer toutes les features di
 ###La première version de mon service.
 C’est une version simplifiée qui se concentre sur un produit et s’appuie sur quelques réparateurs et sera gérée par un administrateur :
 
-+ L’administrateur crée son compte.
-+ Un cycliste crée un compte.
-+ Il renseigne son vélo.
-+ Quand il tombe en panne il crée une requête.
-+ L’administrateur envoie un réparateur.
++ L’_administrateur_ crée son _compte_.
++ Un _cycliste_ crée un _compte_.
++ Il renseigne son _vélo_.
++ Il déclare une _panne_.
++ L’_administrateur_ envoie un _réparateur_.
 
 ###La deuxième version de mon service.
 C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux gens de s’inscrire en tant que réparateurs et sera gérée par plusieurs administrateurs :
 
-+ Les comptes
-+ Un administrateur crée un compte.
-+ Un réparateur crée un compte.
-+ Un cycliste crée un compte et renseigne un produit qu’il voudra réparer et le type de produit ( vélo, appareil photo, machine à coudre,… )
-+ Quand il tombe en panne il crée une requête.
-+ Le réparateur accepte la requête.
-+ Les administrateurs vérifie le bon déroulement des opérations.
++ Les _comptes_ utilisent des _Tokens_.
++ Un _administrateur_ crée un _compte_.
++ Un _réparateur_ crée un _compte_.
++ Un _cycliste_ crée un _compte_ et renseigne un _produit_ qu’il voudra réparer et le _type de produit_ ( vélo, appareil photo, machine à coudre,… )
++ Il déclare une _panne_.
++ Le _réparateur_ accepte la _requête_.
++ Les _administrateurs_ supervisent les _requêtes_ et _comptes_.
 
 ####J’ai donc plusieurs classes :
 
@@ -79,9 +79,9 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 
 Il me reste à définir les intéractions entre chaque classe.
 
-+ Fixee, Fixer et Admin héritent de Compte.
-+ Bike hérite de Prop.
-+ Fixee, Fixer et Admin utilise temporairement Request()
++ Fixee, Fixer et Admin _héritent_ de Compte.
++ Bike _hérite_ de Prop.
++ Fixee, Fixer et Admin _utilise temporairement_ Request()
 
 ##Le diagramme
 
