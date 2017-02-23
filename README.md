@@ -10,6 +10,7 @@ Certains plugins permettent même de générer son code directement à partir d�
 ##Le diagramme 
 + La définition d’une classe :
 On définit une classe par ses **propriétés** et ses **méthodes**.
+
 <img src="class-detail.png" width=150/>
 
 + Les différents types d’associations entre deux classes :
