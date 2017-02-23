@@ -4,7 +4,7 @@ Ce chapitre s'inscrit dans le module diagramme UML.
 
 1. [Diagramme UML](https://github.com/simplonco/Diagrammes-UML)
 
-	1.1 [Diagramme Use-Case](https://github.com/simplonco/UML-Use-Case)
+	- [x] [Diagramme Use-Case](https://github.com/simplonco/UML-Use-Case)
 	
 	1.2. [Diagramme de séquence](https://github.com/simplonco/UML-Sequence)
 	
