@@ -14,6 +14,19 @@ On définit une classe par ses **propriétés** et ses **méthodes**.
 
 <img src="class-detail.png" width="150"/>
 
+```
+class MyClass {
+	constructor () {
+		this.prop = "une propriété";
+		this.method = function () {
+			console.log("Ma méthode me permet de log " + this.prop);
+		}
+	}
+}
+var explain = new MyClass();
+explain.method();
+```
+
 + Les **différents types d’associations** entre deux classes :
     + **L’association simple**. un Animal utilise/crée un Outil. L’outil a besoin de l’animal pour être créer. L’animal a besoin d’utiliser l’outil. il y a une relation de co-dépendance.
     
