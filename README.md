@@ -85,4 +85,4 @@ Il me reste à définir les intéractions entre chaque classe.
 
 ##Le diagramme
 
-<img src="asso-qtt.png" width="300"/>
+![diagramme de classe](class.png)
