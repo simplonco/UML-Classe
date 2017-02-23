@@ -23,6 +23,7 @@ class MyClass {
 		}
 	}
 }
+
 var explain = new MyClass();
 explain.method();
 ```
