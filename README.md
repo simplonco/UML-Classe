@@ -45,7 +45,7 @@ On définit une classe par ses **propriétés** et ses **méthodes**.
 
 --------------
 ## Case study Fixeez
-Quand on crée un service, on ne va pas forcément créer toutes les features directement. Mais quand on crée les classes ça peut être un gain de temps de penser au résultat final, ça permet d’avoir une solution **scalable** ( évolutive ).
+Quand on crée un service, on ne va pas forcément créer toutes les features directement. Mais quand on crée les classes ça peut être un gain de temps de penser au résultat final, ça permet d’avoir une solution **scalable** (évolutive).
 
 #### La première version de mon service.
 C’est une version simplifiée qui se concentre sur un produit et s’appuie sur quelques réparateurs et sera gérée par un administrateur :
@@ -62,7 +62,7 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 + Les _comptes_ utilisent des _Tokens_.
 + Un _administrateur_ crée un _compte_.
 + Un _réparateur_ crée un _compte_.
-+ Un _cycliste_ crée un _compte_ et renseigne un _produit_ qu’il voudra réparer et le _type de produit_ ( vélo, appareil photo, machine à coudre,… )
++ Un _cycliste_ crée un _compte_ et renseigne un _produit_ qu’il voudra réparer et le _type de produit_ (vélo, appareil photo, machine à coudre,…)
 + Il déclare une _panne_.
 + Le _réparateur_ accepte la _requête_.
 + Les _administrateurs_ supervisent les _requêtes_ et _comptes_.
