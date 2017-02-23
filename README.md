@@ -10,7 +10,7 @@ Certains plugins permettent même de générer son code directement à partir d�
 ##Le diagramme 
 + La définition d’une classe :
 On définit une classe par ses **propriétés** et ses **méthodes**.
-![asso-simple](class-detail.png)
+<img src="class-detail.png" width=150/>
 
 + Les différents types d’associations entre deux classes :
     + L’association simple. un Animal utilise/crée un Outil. L’outil a besoin de l’animal pour être créer. L’animal a besoin d’utiliser l’outil. il y a une relation de co-dépendance.
