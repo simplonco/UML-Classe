@@ -34,8 +34,33 @@ explain.method();
     <img src="asso-simple.png" width="300"/>
 
     + **L’association directe**. un Animal respire de l’Air. L’animal utilise l’air sans interruption. L’animal ne vit pas sans air, l’air peut vivre sans animal.
-    
-    <img src="asso-direct.png" width="300"/>
+    
+    ```
+    	class Animal {
+		constructor() {
+			this.skeleton = "skeleton";
+			this.breathe = function () {
+				console.log('Is breathing.');
+			};
+		}
+	}
+
+	class Human extends Animal {
+		constructor() {
+			super();
+			this.pouce = "opposable";
+			this.walk = function () {
+				console.log('With two legs.');
+			}
+		}
+	}
+	
+	var me  = new Human ();
+	me.breathe();
+	me.walk();
+    ```
+    
+    <img src="asso-direct.png" width="300"/>
 
     + **L’association temporaire**. un Animal mange de la nourriture. L’animal utilise ponctuellement la nourriture. L’animal ne vit pas sans nourriture, la nourriture vit sans l’animal.
     
