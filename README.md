@@ -1,5 +1,19 @@
 # Le diagramme de classe
 
+Ce chapitre s'inscrit dans le module diagramme UML.
+
+1. [Diagramme UML](https://github.com/simplonco/Diagrammes-UML)
+	1.1 [Diagramme Use-Case](https://github.com/simplonco/UML-Use-Case)
+	1.2. [Diagramme de séquence](https://github.com/simplonco/UML-Sequence)
+	1.3. [Diagramme d'intéraction](https://github.com/simplonco/UML-Interaction)
+	1.4. [Diagramme de classe](https://github.com/simplonco/UML-Class)
+
+Vous pouvez trouver ce module dans les parcours suivants :
+
++ Développeur Web Fullstack
+
+-------------
+
 Le diagramme de classe est une étape supplémentaire.
 
 On va analyser notre service au-délà de ses utilisateurs et se pencher sur tout les **acteurs/éléments** qui le constituent et comment ils **intéragissent** les uns avec les autres.
