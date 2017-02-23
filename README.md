@@ -84,6 +84,6 @@ C’est une version qui s’ouvre à plusieurs type de produits. Elle permet aux
 + Fixee, Fixer et Admin _utilise temporairement_ Request()
 
 --------------
-##Le diagramme
+## Le diagramme
 
 ![diagramme de classe](class.png)
